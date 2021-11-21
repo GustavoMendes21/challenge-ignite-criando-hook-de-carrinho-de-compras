@@ -40,6 +40,8 @@ describe('useCart Hook', () => {
   });
 
   it('should be able to initialize cart with localStorage value', () => {
+    debugger
+    
     const { result } = renderHook(useCart, {
       wrapper: CartProvider,
     });
